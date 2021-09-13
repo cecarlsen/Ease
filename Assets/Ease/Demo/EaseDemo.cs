@@ -67,7 +67,6 @@ public class EaseDemo : MonoBehaviour
 		AddEasingFunction( Ease.SmoothStart7 );
 		AddEasingFunction( Ease.SmoothStart8 );
 		AddEasingFunction( Ease.SmoothStart9 );
-		AddEasingFunction( Ease.SmoothStart10 );
 		AddEasingFunction( Ease.SmoothStop2 );
 		AddEasingFunction( Ease.SmoothStop3 );
 		AddEasingFunction( Ease.SmoothStop4 );
@@ -76,7 +75,6 @@ public class EaseDemo : MonoBehaviour
 		AddEasingFunction( Ease.SmoothStop7 );
 		AddEasingFunction( Ease.SmoothStop8 );
 		AddEasingFunction( Ease.SmoothStop9 );
-		AddEasingFunction( Ease.SmoothStop10 );
 		AddEasingFunction( Ease.SmoothStep2 );
 		AddEasingFunction( Ease.SmoothStep3 );
 		AddEasingFunction( Ease.SmoothStep4 );
@@ -85,7 +83,6 @@ public class EaseDemo : MonoBehaviour
 		AddEasingFunction( Ease.SmoothStep7 );
 		AddEasingFunction( Ease.SmoothStep8 );
 		AddEasingFunction( Ease.SmoothStep9 );
-		AddEasingFunction( Ease.SmoothStep10 );
 		AddEasingFunction( Ease.Arch2 );
 		AddEasingFunction( Ease.SmoothStartArch3 );
 		AddEasingFunction( Ease.SmoothStopArch3 );

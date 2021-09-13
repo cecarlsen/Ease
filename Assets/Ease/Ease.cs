@@ -83,11 +83,6 @@ public static class Ease
 	}
 
 	[MethodImpl( MethodImplOptions.AggressiveInlining )]
-	public static float SmoothStart10( float t ){
-		return t*t*t*t*t*t*t*t*t*t;
-	}
-
-	[MethodImpl( MethodImplOptions.AggressiveInlining )]
 	public static float SmoothStop2( float t ){
 		t = 1-t;
 		return 1 - t*t;
@@ -133,12 +128,6 @@ public static class Ease
 	public static float SmoothStop9( float t ){
 		t = 1-t;
 		return 1 - t*t*t*t*t*t*t*t*t;
-	}
-
-	[MethodImpl( MethodImplOptions.AggressiveInlining )]
-	public static float SmoothStop10( float t ){
-		t = 1-t;
-		return 1 - t*t*t*t*t*t*t*t*t*t;
 	}
 
 	[MethodImpl( MethodImplOptions.AggressiveInlining )]
@@ -195,13 +184,6 @@ public static class Ease
 		float i = 1-t;
 		float a = t*t*t*t*t*t*t*t*t;
 		return a + ( ( 1 - i*i*i*i*i*i*i*i*i ) - a ) * t;
-	}
-
-	[MethodImpl( MethodImplOptions.AggressiveInlining )]
-	public static float SmoothStep10( float t ){
-		float i = 1-t;
-		float a = t*t*t*t*t*t*t*t*t*t;
-		return a + ( ( 1 - i*i*i*i*i*i*i*i*i*i ) - a ) * t;
 	}
 
 	[MethodImpl( MethodImplOptions.AggressiveInlining )]
